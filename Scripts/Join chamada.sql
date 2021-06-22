@@ -1,0 +1,3 @@
+SELECT p.nome AS Professor, t.descricao as Turma, i.nome AS Instituicao FROM professor p INNER JOIN turma t ON t.professor_idprofessor=p.idprofessor INNER JOIN instituicao i ON t.instituicao_idinstituicao=i.idinstituicao
+
+select p.id, p.nome, ptc.participante_id, ptc.curso_id, c.nome, c.id from participante p join participante_tem_curso ptc on p.id=ptc.participante_id join curso c on c.id=ptc.curso_id

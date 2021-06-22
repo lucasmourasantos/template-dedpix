@@ -1,0 +1,3 @@
+https://mdbootstrap.com/docs/standard/plugins/table-editor/
+
+https://getbootstrap.com/docs/5.0/content/tables/

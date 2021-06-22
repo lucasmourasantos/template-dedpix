@@ -1,0 +1,7 @@
+{
+    "name": "lucas/biometria",
+    "description": "Biometria",
+    "require": {
+        "slim/slim": "^2.6"
+    }
+}
